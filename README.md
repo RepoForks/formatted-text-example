@@ -9,7 +9,7 @@ Blog post: http://smstuebe.de/2016/04/03/formattedtext.xamrin.forms/
 ## โครงสร้างโปรเจค
 
 - เพิ่มคลาส FormattedLabelRenderer ที่ Extend Xamarin.Forms.Platform.iOS.LabelRenderer
-- เพิ่ม Font นามสกุล ttf
+- เพิ่ม Font นามสกุล ttf ในโฟลเดอร์ Resources และใส่ชื่อไฟล์ใน Info.plist
 
 ```
 └── FormattedText
@@ -137,5 +137,9 @@ namespace FormattedText.iOS {
     }
 }
 ```
+
+## Link
+
+- https://blog.verslu.is/xamarin/xamarin-forms-xamarin/using-custom-fonts-on-ios-and-android-with-xamarin-forms
 
 
